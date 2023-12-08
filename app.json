@@ -11,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "app-scheme",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,6 +26,23 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a3f1d3bd-7285-49cb-8f8f-87d14a536b36"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a3f1d3bd-7285-49cb-8f8f-87d14a536b36"
     }
   }
 }
